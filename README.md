@@ -37,13 +37,13 @@ the formulation of the portfolio problem:
 
 #### CQM Runs 
 
-The single-period demo determines the optimal number of shares to purchase from 3 cryptos based on 
+The single-period demo determines the optimal number of crypto quantities to purchase from 10 cryptos based on 
 the historical price data provided. To run the demo, type:
 
 ```python portfolio.py```
 
 This runs the single-period portfolio optimization problem, as formulated above, using default data 
-stored in `basic_data.csv`, builds the constrained quadratic model (CQM), and runs the CQM on 
+stored in `crypto_basic_data.csv`, builds the constrained quadratic model (CQM), and runs the CQM on 
 D-Wave's hybrid solver. The output of the run is printed to the console as follows.
 
 ```bash

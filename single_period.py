@@ -123,7 +123,7 @@ class SinglePeriod:
         elif dates or self.dates: 
             if dates:
                 self.dates = dates 
-
+            """
             print(f"\nLoading live data from the web from Yahoo! finance",
                   f"from {self.dates[0]} to {self.dates[1]}...")
 
@@ -190,7 +190,7 @@ class SinglePeriod:
             
             # Assign self.df_all to self.df
             self.df = self.df_all
-            
+            """
         else:
             print("\nLoading data from provided CSV file...")
             if file_path:
